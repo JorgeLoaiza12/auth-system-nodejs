@@ -1,0 +1,23 @@
+{
+  "name": "basic-authenticated-node",
+  "version": "1.0.0",
+  "description": "Basic, Authenticated API with Node, Express, and Mongo",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jorge Loaiza",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.15.2",
+    "crypto": "0.0.3",
+    "express": "^4.14.0",
+    "jsonwebtoken": "^7.1.6",
+    "mongoose": "^4.5.6",
+    "morgan": "^1.7.0",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.1.0",
+    "passport-local": "^1.0.0"
+  }
+}
